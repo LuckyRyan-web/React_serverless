@@ -26,4 +26,5 @@ inputs:
     hook: yarn && yarn build # 构建命令。在代码上传之前执行
     dist: ./dist # 输出的目录。如果配置 hook，此参数必填
   bucketName: my-react-starter # Bucket 名称（不允许大写字母）。默认添加 AppId 作为后缀
+  runtime: Nodejs16.0.0
   protocol: https
